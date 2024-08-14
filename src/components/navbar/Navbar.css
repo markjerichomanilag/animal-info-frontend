@@ -1,0 +1,11 @@
+.navbar-container {
+	@apply flex justify-between px-[10px] py-[20px] bg-slate-400;
+}
+
+.navbar-container > li {
+	@apply cursor-pointer p-[10px] rounded-lg;
+}
+
+.navbar-container > li:hover {
+	@apply bg-slate-200;
+}
