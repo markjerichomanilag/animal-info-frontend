@@ -17,10 +17,6 @@ const LoginForm = () => {
 		console.log('Clicked');
 	};
 
-	useEffect(() => {
-		console.log(errors);
-	}, [errors]);
-
 	return (
 		<form
 			className="flex flex-col gap-[10px]"
